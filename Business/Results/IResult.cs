@@ -8,6 +8,5 @@ namespace Business.Results
     {
         public bool IsError { get; }
         public string Message { get; }
-        public int ReferenceNumber { get; set; }
     }
 }
