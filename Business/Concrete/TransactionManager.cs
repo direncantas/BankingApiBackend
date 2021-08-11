@@ -34,15 +34,16 @@ namespace Business.Concrete
                 return new ErrorResult("Invalid receiver account number");
             }
 
-
             TransactionValidator validator = new TransactionValidator(_accountDal);
             var result = validator.Validate(transaction);
 
             if (result.IsValid)
             {
                 _transactionDal.Create(transaction);
-                sender.Balance -= transaction.Amount;
-                receiver.Balance += transaction.Amount;
+                sender.Balance = sender.Balance - transaction.Amount;
+                receiver.Balance = receiver.Balance + transaction.Amount;
+                _accountDal.Update(sender);
+                _accountDal.Update(receiver);
                 return new SuccessResult("Money Transaction is created!");
             }
             else

@@ -7,6 +7,5 @@ namespace Entities.Concrete
         public int AccountNumber { get; set; }
         public string CurrencyCode { get; set; }
         public decimal Balance { get; set; }
-
     }
 }

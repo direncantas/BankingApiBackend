@@ -1,0 +1,9 @@
+D:\direncan\Banking\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\direncan\Banking\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\direncan\Banking\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\direncan\Banking\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+D:\direncan\Banking\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\direncan\Banking\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\direncan\Banking\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\direncan\Banking\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\direncan\Banking\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
